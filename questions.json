@@ -1,0 +1,31 @@
+{
+    "note": "Java is a popular multiple platform, object-oriented programming language. Java can be used as a platform through Java virtual machines (JVMs), which can be installed on most computers and mobile devices.",
+    "questions": [
+        "Here are the generated exam-style questions based on the note:",
+        "**1-mark MCQ questions**",
+        "What is Java primarily designed for?",
+        "a) System programming",
+        "b) Web development",
+        "c) Multiple-platform object-oriented programming",
+        "d) Database management",
+        "Answer: c)",
+        "What can be used to install Java on most computers and mobile devices?",
+        "a) Java compilers",
+        "b) Java virtual machines (JVMs)",
+        "c) Integrated Development Environments (IDEs)",
+        "d) Programming languages",
+        "Answer: b)",
+        "**1-mark question**",
+        "Describe one feature of the Java programming language.",
+        "(Answer should be around 30-50 words, e.g., \"Java is an object-oriented programming language\" or \"Java can run on multiple platforms through JVMs\")",
+        "**2-mark question**",
+        "Explain how Java achieves platform independence.",
+        "(Answer should be around 60-80 words, e.g., \"Java achieves platform independence by using Java Virtual Machines (JVMs), which allow the same code to run on different operating systems and devices without modification\")",
+        "**3-mark question**",
+        "Describe the key components involved in running a Java program. (2 marks) What are their roles in the execution process? (1 mark)",
+        "(Answer should be around 100-120 words, e.g., \"The key components involved in running a Java program are the Java code, JVM, and operating system. The Java code contains the program instructions, which are compiled into bytecode by the compiler. The JVM loads the bytecode and interprets it, while the operating system provides resources such as memory and processing power\")",
+        "**5-mark question**",
+        "Discuss the advantages of using Java as a programming language.",
+        "(Answer should be around 150-200 words, e.g., \"Java offers several benefits, including platform independence, object-oriented design principles, robust security features, and vast libraries of reusable code. Its ability to run on multiple platforms through JVMs makes it an ideal choice for developing cross-platform applications. Additionally, Java's strong focus on encapsulation, inheritance, and polymorphism enables developers to create modular, maintainable, and scalable code\")"
+    ]
+}

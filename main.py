@@ -19,7 +19,7 @@ You are a teaching assistant. Read the following note and generate:
 """
 
 
-# Prompt for generating 2/3/5 mark questions
+#MCQ/2/3/5 mark questions
 if(mcq != 0):
     prompt = prompt + f"""
     . {num2words(mcq)} 1-mark MCQ question"""
@@ -49,7 +49,7 @@ Note:
 print(prompt)
 
 
-#llama3.1:8b 
+#LLM
 response = ollama.chat(
     model='llama3.1:8b',
     messages=[
@@ -63,7 +63,7 @@ generated_text = response['message']['content'].strip()
 print("\nGenerated Questions:\n")
 print(generated_text)
 
-# Process into list of questions
+# Process list
 lines = [line.strip() for line in generated_text.split('\n') if line.strip()]
 questions = []
 
@@ -72,14 +72,14 @@ for line in lines:
         line = line.lstrip("0123456789.- ")
     questions.append(line)
 
-# Prepare JSON structure
+#JSON 
 output_json = {
     "note": note.strip(),
     "questions": questions
 }
 
-# Save to file
+# Save question
 with open("questions.json", "w", encoding="utf-8") as f:
     json.dump(output_json, f, indent=4, ensure_ascii=False)
 
-print("\n✅ Questions saved to 'questions.json'")
+print("\nQuestions saved to 'questions.json'")
